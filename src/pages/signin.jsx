@@ -1,21 +1,35 @@
-import bookmarkIcon  from '../assets/icon/Bookmark-icon.png'
-
-function LogIn(){
-    return(
-        <div>
-            <title className='login-title'>
+import bookmarkIcon from '../assets/icon/Bookmark-icon.png'
+import '../assets/css/signin.css'
+import {Link} from 'react-router-dom'
+function LogIn() {
+    return (
+        <div className='login'>
+            <div className='login-title'>
                 <img src={bookmarkIcon} alt="bookmark" />
                 <h1>Bookmark Manager</h1>
-            </title>
-            <h2>Log in to your account</h2>
-            <span>Welcome back! Please enter your details.</span>
+            </div>
+            <div className='login-group'>
+                <h2>Log in to your account</h2>
+                <p className='login-group-subtext'>Welcome back! Please enter your details.</p>
+            </div>
 
-            <label htmlFor="email">Email</label>
-            <input type="email" id='email'/>
+            <form className='login-form'>
+                <div className='login-group'>
+                    <label htmlFor="email">Email</label>
+                    <input type="email" id='email' />
+                </div>
 
-            <label htmlFor="pass">Email</label>
-            <input type="password" id='pass'/>
-        </div>    
+                <div className='login-group'>
+                    <label htmlFor="pass">Password</label>
+                    <input type="password" id='pass' />
+                </div>
+                <button className='login-submit'>Log In</button>
+            </form>
+            <footer>
+                <p>forgot password? <Link to="/recoverPass"></Link></p>
+                <p>Don't have an account? <Link to="/register">Sign up</Link></p>
+            </footer>
+        </div>
     )
 }
 
