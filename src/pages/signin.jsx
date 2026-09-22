@@ -26,7 +26,7 @@ function LogIn() {
                 <button className='login-submit'>Log In</button>
             </form>
             <footer>
-                <p>forgot password? <Link to="/recoverPass"></Link></p>
+                <p>forgot password? <Link to="/recoverPass">Recover it</Link></p>
                 <p>Don't have an account? <Link to="/register">Sign up</Link></p>
             </footer>
         </div>

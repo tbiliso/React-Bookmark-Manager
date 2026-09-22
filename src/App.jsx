@@ -3,8 +3,8 @@ import './App.css'
 
 import {Routes, Route} from 'react-router-dom'
 import LogIn from './pages/signin.jsx'
-import ResetPass from './pages/resetPass.jsx'
-import Register from './pages/register.jsx' 
+// import ResetPass from './pages/resetPass.jsx'
+// import Register from './pages/register.jsx' 
 
 function App() {
  
