@@ -10,14 +10,14 @@ function App() {
  
 
   return (
-    <>
+    <div className='full-page'>
     <Routes>
       <Route path="/" element={<LogIn />} />
       <Route path="/login" element={<LogIn />} />
       <Route path="/home" element={<Home />} />
 
     </Routes>
-    </>
+    </div>
   )
 }
 

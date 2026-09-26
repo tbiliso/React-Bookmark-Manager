@@ -2,5 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* background-color: #E8F0EF; */
 }
 
+body{
+    padding: 16px;
+    width: 100%;
+    max-width: 344px;
+    background-color: white;
+}

@@ -1,22 +1,25 @@
 import logos from "../assets/js/logos.js"
+import '.././assets/css/BookmarkCard.css'
 function BookmarkCard({bookmark}){
 
     return(
         <div className="card">
-            <header>
-                <img src={logos[bookmark.title]} alt={bookmark.title} />
-                <div>
+            <header className="card-header">
+                <img src={logos[bookmark.title]} 
+                    alt={bookmark.title} 
+                    className="card-header-logo"/>
+                <div className="card-header-content">
                     <h2>{bookmark.title}</h2>
                     <p>{bookmark.url}</p>
                 </div>
-                <img src="/icon/burger-menu.png" alt="menu" />
+                <img className="card-header-menu" src="/icon/card-menu-light.svg" alt="menu" />
             </header>
-            <div>
+            <div className="card-body">
                 <article>{bookmark.description}</article>
-                <div>
-                    <button></button>
-                    <button></button>
-                    <button></button>
+                <div className="card-body-btns">
+                    <button>CSS</button>
+                    <button>Practice</button>
+                    <button>Layout</button>
                 </div>
             </div>
             <footer></footer>

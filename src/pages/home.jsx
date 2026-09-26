@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import BookmarkCard from "../components/BookmarkCard"
+import '../assets/css/home.css'
 function Home() {
     const [bookmarks, setBookmarks] = useState([])
     useEffect(() => {
@@ -14,7 +15,7 @@ function Home() {
     }, [])
     console.log(bookmarks)
     return (
-        <div>
+        <div className="home-cards">
             {
                 bookmarks.map((item)=>{
                     return (

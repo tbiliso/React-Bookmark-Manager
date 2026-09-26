@@ -1,0 +1,42 @@
+.card{
+    padding: 16px;
+    display: flex;
+    /* gap: 16px; */
+    flex-direction: column;
+    width: 338px;
+    background-color: #E8F0EF;
+    border: dashed
+}
+
+.card-header{
+    display: flex;
+    gap: 12px;
+    /* justify-content: space-between; */
+
+}
+/* .card-header-content{
+    width: 100%;
+} */
+.card-header-menu{
+    width: 32px;
+    height: 32px;
+}
+.card-header-content{
+    flex: 1;
+}
+.card-header-logo{
+    width: 44px;
+    height: 44px;
+}
+
+.card-body-btns{
+    display: flex;
+    gap: 8px;
+}
+
+.card-body-btns button{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4C5C59;
+    border-style: none;
+}
