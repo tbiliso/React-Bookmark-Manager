@@ -24,3 +24,5 @@ const logos = {
     "JSONPlaceholder": "/logos/stack-overflow.png",
     "Postman Learning Center": "/logos/code-sandbox.png"
 }
+
+export default logos

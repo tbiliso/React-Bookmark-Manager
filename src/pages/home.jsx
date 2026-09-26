@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-
+import BookmarkCard from "../components/BookmarkCard"
 function Home() {
     const [bookmarks, setBookmarks] = useState([])
     useEffect(() => {
@@ -18,11 +18,8 @@ function Home() {
             {
                 bookmarks.map((item)=>{
                     return (
-                    <div key={item.id}>
-                        <h2>{item.title}</h2>
-                        {/* <p>{item.url}</p>
-                        <p>{item.description}</p> */}
-                    </div>
+                        <BookmarkCard key={item.id} bookmark={item}/>
+                      
                     )
                 })
             }

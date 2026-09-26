@@ -1,11 +1,11 @@
-import bookmarkIcon from '../assets/icon/Bookmark-icon.png'
+// import bookmarkIcon from '../assets/icon/Bookmark-icon.png'
 import '../assets/css/signin.css'
 import {Link} from 'react-router-dom'
 function LogIn() {
     return (
         <div className='login'>
             <div className='login-title'>
-                <img src={bookmarkIcon} alt="bookmark" />
+                <img src="/icon/Bookmark-icon.png" alt="bookmark" />
                 <h1>Bookmark Manager</h1>
             </div>
             <div className='login-group'>
