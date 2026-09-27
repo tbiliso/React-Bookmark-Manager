@@ -16,12 +16,13 @@ function BookmarkCard({bookmark}){
             </header>
             <div className="card-body">
                 <article>{bookmark.description}</article>
-                <div className="card-body-btns">
+                
+            </div>
+            <div className="card-body-btns">
                     <button>CSS</button>
                     <button>Practice</button>
                     <button>Layout</button>
                 </div>
-            </div>
             <footer></footer>
         </div>
     )

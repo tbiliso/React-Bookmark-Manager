@@ -1,11 +1,13 @@
 .card{
     padding: 16px;
     display: flex;
-    /* gap: 16px; */
+    gap: 16px;
     flex-direction: column;
-    width: 338px;
-    background-color: #E8F0EF;
-    border: dashed
+    width: 100%;
+    max-width: 338px;
+    background-color: white;
+    /* border: dashed */
+    border-radius: 12px;
 }
 
 .card-header{
@@ -23,6 +25,10 @@
 }
 .card-header-content{
     flex: 1;
+    
+}
+.card-header-content p{
+    color: #899492;
 }
 .card-header-logo{
     width: 44px;
@@ -33,10 +39,14 @@
     display: flex;
     gap: 8px;
 }
-
+article{
+    color: rgba(76, 92, 89, 1);
+}
 .card-body-btns button{
     font-size: 12px;
     font-weight: 500;
     color: #4C5C59;
     border-style: none;
+    padding: 2px 8px;
+    border-radius: 4px;
 }
