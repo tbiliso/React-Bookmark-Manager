@@ -3,5 +3,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 16px;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

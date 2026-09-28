@@ -1,0 +1,32 @@
+.home-header{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.home-header img{
+    width: 40px;
+    height: 40px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 12px;
+    border: 1px solid #D4DEDC;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.search-box img {
+    width: 18px;
+    height: 18px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px 0;
+    background: transparent;
+}
